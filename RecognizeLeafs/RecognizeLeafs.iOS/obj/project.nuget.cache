@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ebu5cE30LedO4cu1NGtxeb8VEj7ZzIPrtNivcpP8tk7HpeaSzdSzbP/ILfkbD9Ba7/vNgI39mzp3lWGoiMuwaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.iOS\\RecognizeLeafs.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcin\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}

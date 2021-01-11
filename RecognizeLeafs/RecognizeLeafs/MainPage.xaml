@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecognizeLeafs.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="Button_Choose" Grid.Row="2" Grid.Column="0" Text="{Binding Choose, Mode=TwoWay}" Clicked="Button_Choose_Clicked"></Button>
+        <Button x:Name="Button_Take" Grid.Row="2" Grid.Column="1" Text="{Binding TakePhoto, Mode=TwoWay}" Clicked="Button_Take_Clicked"></Button>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Recognize tree by leaf" FontSize="Large" HorizontalOptions="CenterAndExpand" ></Label>
+        <Image x:Name="Image_Leaf" Grid.Row="1" Grid.ColumnSpan="2" Aspect="Fill"
+            Source="{Binding ImageSource, UpdateSourceEventName=PropertyChanged}"></Image>
+        <Label HorizontalTextAlignment="Center"  Grid.Row="1" Grid.ColumnSpan="2" VerticalTextAlignment="Center">
+            <Label.FormattedText >
+                <FormattedString>
+                    <Span Text="{Binding AnalyzeInfo, Mode=TwoWay}" FontSize="Large"/>
+                    <Span Text="{Binding WikipediaLink, Mode=TwoWay}"
+                        TextColor="Blue"
+                        TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="{Binding WikipediaLink, Mode=TwoWay}" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </Grid>
+
+</ContentPage>

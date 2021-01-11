@@ -1,0 +1,14 @@
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\bin\Debug\netstandard2.0\RecognizeLeafs.deps.json
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\bin\Debug\netstandard2.0\RecognizeLeafs.dll
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\bin\Debug\netstandard2.0\ref\RecognizeLeafs.dll
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\bin\Debug\netstandard2.0\RecognizeLeafs.pdb
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\RecognizeLeafs.csprojAssemblyReference.cache
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\RecognizeLeafs.AssemblyInfoInputs.cache
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\RecognizeLeafs.AssemblyInfo.cs
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\RecognizeLeafs.dll
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\ref\RecognizeLeafs.dll
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\RecognizeLeafs.pdb
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\RecognizeLeafs.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\source\repos\RecognizeLeafs\RecognizeLeafs\RecognizeLeafs\obj\Debug\netstandard2.0\XamlC.stamp
