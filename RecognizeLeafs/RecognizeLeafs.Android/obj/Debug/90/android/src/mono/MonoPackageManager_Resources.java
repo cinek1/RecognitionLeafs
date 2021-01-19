@@ -4,7 +4,12 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "RecognizeLeafs.Android.dll" comes first in this list. */
 		"RecognizeLeafs.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.Abstractions.dll",
 		"Plugin.Media.dll",
+		"Plugin.Permissions.Abstractions.dll",
+		"Plugin.Permissions.dll",
 		"RecognizeLeafs.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

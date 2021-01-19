@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "LVcxWPIBS0nZGf8Ruxx0p/zuLaMAdix1n3ZO6zXcBeRsmy8e9lBAGG5uHLiXFoLHJIRvzsoHvAwbe1ZPWTznvQ==",
+  "dgSpecHash": "pe4AsP5OlEECblBAPG4WO0ZrL2GbogK0ZzA3F5usCLA2IOEnqtKN8wOz3TMbV6/h65v2M21fW8M4GOwkhsHycA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj",
+  "projectFilePath": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Marcin\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\plugin.permissions\\2.2.1\\plugin.permissions.2.2.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\xam.plugin.media\\3.1.2\\xam.plugin.media.3.1.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],

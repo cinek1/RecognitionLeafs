@@ -4558,23 +4558,25 @@ public final class R {
     public static final int ic_mtrl_chip_checked_black=0x7f070062;
     public static final int ic_mtrl_chip_checked_circle=0x7f070063;
     public static final int ic_mtrl_chip_close_circle=0x7f070064;
-    public static final int mtrl_snackbar_background=0x7f070065;
-    public static final int mtrl_tabs_default_indicator=0x7f070066;
-    public static final int navigation_empty_icon=0x7f070067;
-    public static final int notification_action_background=0x7f070068;
-    public static final int notification_bg=0x7f070069;
-    public static final int notification_bg_low=0x7f07006a;
-    public static final int notification_bg_low_normal=0x7f07006b;
-    public static final int notification_bg_low_pressed=0x7f07006c;
-    public static final int notification_bg_normal=0x7f07006d;
-    public static final int notification_bg_normal_pressed=0x7f07006e;
-    public static final int notification_icon_background=0x7f07006f;
-    public static final int notification_template_icon_bg=0x7f070070;
-    public static final int notification_template_icon_low_bg=0x7f070071;
-    public static final int notification_tile_bg=0x7f070072;
-    public static final int notify_panel_notification_icon_bg=0x7f070073;
-    public static final int tooltip_frame_dark=0x7f070074;
-    public static final int tooltip_frame_light=0x7f070075;
+    public static final int mainscreen=0x7f070065;
+    public static final int mtrl_snackbar_background=0x7f070066;
+    public static final int mtrl_tabs_default_indicator=0x7f070067;
+    public static final int navigation_empty_icon=0x7f070068;
+    public static final int notification_action_background=0x7f070069;
+    public static final int notification_bg=0x7f07006a;
+    public static final int notification_bg_low=0x7f07006b;
+    public static final int notification_bg_low_normal=0x7f07006c;
+    public static final int notification_bg_low_pressed=0x7f07006d;
+    public static final int notification_bg_normal=0x7f07006e;
+    public static final int notification_bg_normal_pressed=0x7f07006f;
+    public static final int notification_icon_background=0x7f070070;
+    public static final int notification_template_icon_bg=0x7f070071;
+    public static final int notification_template_icon_low_bg=0x7f070072;
+    public static final int notification_tile_bg=0x7f070073;
+    public static final int notify_panel_notification_icon_bg=0x7f070074;
+    public static final int screentwo=0x7f070075;
+    public static final int tooltip_frame_dark=0x7f070076;
+    public static final int tooltip_frame_light=0x7f070077;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -5143,6 +5145,7 @@ public final class R {
     public static final int CardView_Light=0x7f0e00c5;
     public static final int MainTheme=0x7f0e00c6;
     /**
+     * Base theme applied no matter what API
      * Base theme applied no matter what API
      */
     public static final int MainTheme_Base=0x7f0e00c7;
@@ -17161,6 +17164,7 @@ public final class R {
     public static final int ViewStubCompat_android_inflatedId=2;
   }
   public static final class xml {
-    public static final int xamarin_essentials_fileprovider_file_paths=0x7f100000;
+    public static final int file_paths=0x7f100000;
+    public static final int xamarin_essentials_fileprovider_file_paths=0x7f100001;
   }
 }

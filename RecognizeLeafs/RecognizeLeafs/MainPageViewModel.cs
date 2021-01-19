@@ -11,7 +11,10 @@ namespace RecognizeLeafs
     class MainPageViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
         public ICommand TapCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
+
+
 
         protected void OnPropertyChanged(string propertyName)
         {
@@ -41,9 +44,10 @@ namespace RecognizeLeafs
         public MainPageViewModel()
         {
             TakePhoto = "Take photo";
-            ImageSource = "";
+            ImageSource = @"screenTwo.jpg";
             AnalyzeInfo = "Do you want recognize tree?";
             Choose = "Chose photo";
+            WikipediaLink = ""; 
         }
     }
 }

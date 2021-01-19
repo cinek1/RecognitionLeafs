@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RecognizeLeafs.MainPage">
 
-    <Grid>
+    <Grid  BackgroundColor="Black" >
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="1.5*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -14,26 +16,22 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="Button_Choose" Grid.Row="2" Grid.Column="0" Text="{Binding Choose, Mode=TwoWay}" Clicked="Button_Choose_Clicked"></Button>
-        <Button x:Name="Button_Take" Grid.Row="2" Grid.Column="1" Text="{Binding TakePhoto, Mode=TwoWay}" Clicked="Button_Take_Clicked"></Button>
-        <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Recognize tree by leaf" FontSize="Large" HorizontalOptions="CenterAndExpand" ></Label>
-        <Image x:Name="Image_Leaf" Grid.Row="1" Grid.ColumnSpan="2" Aspect="Fill"
+        <Button x:Name="Button_Choose" Grid.Row="4" Grid.Column="0" Text="{Binding Choose, Mode=TwoWay}" Clicked="Button_Choose_Clicked" BackgroundColor="#013214"  BorderRadius="20" TextColor="White"></Button>
+        <Button x:Name="Button_Take" Grid.Row="4" Grid.Column="1" Text="{Binding TakePhoto, Mode=TwoWay}" Clicked="Button_Take_Clicked" BackgroundColor="#013214"   BorderRadius="20" TextColor="White"></Button>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Recognize tree by leaf" FontSize="Large"  TextColor="White" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+        <Image x:Name="Image_Leaf" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="3" Aspect="Fill" BackgroundColor="DarkSeaGreen"
             Source="{Binding ImageSource, UpdateSourceEventName=PropertyChanged}"></Image>
-        <Label HorizontalTextAlignment="Center"  Grid.Row="1" Grid.ColumnSpan="2" VerticalTextAlignment="Center">
-            <Label.FormattedText >
-                <FormattedString>
-                    <Span Text="{Binding AnalyzeInfo, Mode=TwoWay}" FontSize="Large"/>
-                    <Span Text="{Binding WikipediaLink, Mode=TwoWay}"
-                        TextColor="Blue"
-                        TextDecorations="Underline">
-                        <Span.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding TapCommand}"
-                                          CommandParameter="{Binding WikipediaLink, Mode=TwoWay}" />
-                        </Span.GestureRecognizers>
-                    </Span>
-                </FormattedString>
-            </Label.FormattedText>
+
+        <Label x:Name="Label_Text" HorizontalTextAlignment="Center"  Grid.Row="2" BackgroundColor="Black"  Opacity="0.6" Grid.ColumnSpan="2" VerticalTextAlignment="Center"
+                  Text="{Binding AnalyzeInfo, Mode=TwoWay}" FontSize="Large" 
+                  TextColor="White"
+                  
+                  FontAttributes="Bold">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GoWikipedia" />
+            </Label.GestureRecognizers>
         </Label>
+        <ActivityIndicator x:Name="wait" IsRunning="False"  Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="Center" />
     </Grid>
 
 </ContentPage>

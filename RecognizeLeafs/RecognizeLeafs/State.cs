@@ -7,6 +7,7 @@ namespace RecognizeLeafs
     enum State
     {
         Analyze,
+        AfterAnalyze,
         Choose
     }
 }

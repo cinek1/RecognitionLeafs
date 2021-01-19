@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj": {}
+    "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj": {
+    "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj",
+        "projectUniqueName": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj",
         "projectName": "RecognizeLeafs.Android",
-        "projectPath": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj",
-        "packagesPath": "C:\\Users\\Marcin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\obj\\",
+        "projectPath": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\RecognizeLeafs.Android.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj": {
-                "projectPath": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj"
+              "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj": {
+                "projectPath": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj"
               }
             }
           }
@@ -44,7 +44,7 @@
           "dependencies": {
             "Xam.Plugin.Media": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[3.1.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -58,21 +58,20 @@
         }
       }
     },
-    "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj": {
+    "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj",
+        "projectUniqueName": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj",
         "projectName": "RecognizeLeafs",
-        "projectPath": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj",
-        "packagesPath": "C:\\Users\\Marcin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcin\\source\\repos\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs\\obj\\",
+        "projectPath": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs\\RecognizeLeafs.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nnnnn\\Desktop\\RecognitionLeafs\\RecognizeLeafs\\RecognizeLeafs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -103,9 +102,13 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xam.Plugin.Media": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[3.1.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
